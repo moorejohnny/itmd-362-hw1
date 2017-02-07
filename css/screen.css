@@ -17,6 +17,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    line-height: 1.444em; /* 26px/18px */
  }
 
+ h1{
+   font-size: 1.722em; /* 31px/18px */
+   line-height: 1.677em; /* 52px/18px */
+ }
+
 /* ===== LAYOUT STYLES ===== */
 
 
