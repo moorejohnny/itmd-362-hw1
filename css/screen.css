@@ -18,6 +18,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    font-family: Helvetica, Georgia, sans-serif;
    font-size: 1.125em; /* 18px/16px */
    line-height: 1.444em; /* 26px/18px */
+
+   padding-top: 21.667px;
+   padding-right: 26px;
+   padding-bottom: 21.667;
+   padding-left: 26px;
  }
 
  h1{
@@ -27,6 +32,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
  p{
    padding-bottom: 1.444em; /* 26px/18px */
+ }
+
+ h3{
+   font-size: 0.722em; /* 13px/18px */
  }
 
 /* ===== LAYOUT STYLES ===== */
