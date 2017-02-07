@@ -13,6 +13,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  /*  5:6  */
 
  html{
+   background-color: #EEE;
+   color: #242424;
+   font-family: Helvetica, Georgia, sans-serif;
    font-size: 1.125em; /* 18px/16px */
    line-height: 1.444em; /* 26px/18px */
  }
@@ -20,6 +23,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  h1{
    font-size: 1.722em; /* 31px/18px */
    line-height: 1.677em; /* 52px/18px */
+ }
+
+ p{
+   padding-bottom: 1.444em; /* 26px/18px */
  }
 
 /* ===== LAYOUT STYLES ===== */
