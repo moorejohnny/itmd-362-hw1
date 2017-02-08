@@ -35,6 +35,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    padding-bottom: 1.444em; /* 26px/18px */
  }
 
+/* FORM ELEMENTS */
+label,
+input{
+  display: block;
+}
+
+
 /* ===== LAYOUT STYLES ===== */
 
 
