@@ -9,8 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
- /* MINOR THIRD modular scale */
- /*  5:6  */
+ /* MINOR 3rd modular scale */
+ /*       5:6 -- 1.2        */
 
  html{
    background-color: #EEE;
@@ -19,10 +19,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    font-size: 1.125em; /* 18px/16px */
    line-height: 1.444em; /* 26px/18px */
 
-   padding-top: 21.667px;
-   padding-right: 26px;
-   padding-bottom: 21.667;
-   padding-left: 26px;
+   padding: 1.204em 1.444em; /*  21.667px/18px || 26px/18px */
+
  }
 
  h1{
