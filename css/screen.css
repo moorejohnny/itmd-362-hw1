@@ -8,7 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 /*
-   https://github.com/necolas/normalize.css
+  https://github.com/necolas/normalize.css
 */
 /* BEGIN normalize.css FROM STYLES */
 button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
@@ -50,17 +50,26 @@ input{
   display: block;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
   border: 0;
   margin: 0;
   padding: 0;
 }
-
-input[type=email]{
+/* so the label could be flush */
+input{
+  line-height: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
 input[type=submit]{
   background-color: #8A8A8A; /* lavender EAC3F7 */
+  display: block;
+}
+
+input[type=name] {
+  padding-left: 0.722em; /*  13px/18px | half gridline */
+}
+
+input[type=email] {
+  padding-left: 0.722em; /*  13px/18px | half gridline */
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -72,10 +81,22 @@ input[type=submit]{
 /* ===== STATE STYLES ===== */
 
 .hasjs input[type="submit"]{
-  postition: absolute;
+  position: absolute;
   left: -696969px;
 }
 
 .hasjs input[type="submit"].active {
   position: static;
+}
+
+.hasjs #input-email {
+  position: relative;
+}
+.hasjs #input-email label {
+  top: 26px;
+  postition: absolute;
+}
+
+.hasjs #input-email label.active {
+  top: 0px;
 }
