@@ -35,11 +35,11 @@ h1{
 }
 
 li{
-  padding-bottom: 1.444em; /* 26px/18px | grid line */
+  padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
 p{
- padding-bottom: 1.444em; /* 26px/18px */
+ padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
 footer{
@@ -106,13 +106,39 @@ input[type=submit] {
 }
 
 .hasjs input[type="submit"].active {
+  position: static;
+}
+
+.hasjs #input-name {
+  position: relative;
+}
+
+.hasjs #input-name label{
+  transition: top, 1s;
+  top: 0.722em; /*  13px/18px | half gridline */
+  padding-left: 0.722em; /*  13px/18px */
   position: absolute;
+}
+
+.hasjs #input-name label.active{
+  top: -1.444em; /*  13px/18px | half gridline */
+  padding-left: -2.888em; /*  13px/18px */
+  /* position: absolute; */
 }
 
 .hasjs #input-email {
   position: relative;
 }
 
-.hasjs #input-email label.active {
-  top: 0px;
+.hasjs #input-email label{
+  transition: top, 1s;
+  top: 0.722em; /*  13px/18px | half gridline */
+  padding-left: 0.722em; /*  13px/18px */
+  position: absolute;
+}
+
+.hasjs #input-email label.active{
+  top: -1.444em; /*  13px/18px | half gridline */
+  padding-left: -2.888em; /*  13px/18px */
+  /* position: absolute; */
 }
