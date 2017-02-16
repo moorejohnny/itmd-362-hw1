@@ -30,6 +30,9 @@ jQuery(function($) {
     if(currentValue.match(validPattern)) {
       $('#submit').addClass('active');
     }
+    else {
+      $('#submit').removeClass('active');
+    }
   });
 
 });
