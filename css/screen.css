@@ -17,31 +17,32 @@ button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line
 
 /* ===== BASE STYLES ===== */
 
- /* MINOR 3rd modular scale */
- /*       5:6 -- 1.2        */
+/* MINOR 3rd modular scale */
+/*       5:6 -- 1.2        */
 
- html{
-   background-color: #EEE;
-   color: #242424;
-   font-family: Helvetica, Georgia, sans-serif;
-   font-size: 1.125em; /* 18px/16px */
-   line-height: 1.444em; /* 26px/18px */
-   padding: 1.204em 1.444em; /*  21.667px/18px || 26px/18px */
- }
+html{
+  background-color: #EEE;
+  color: #242424;
+  font-family: Helvetica, Georgia, sans-serif;
+  font-size: 1.125em; /* 18px/16px */
+  line-height: 1.444em; /* 26px/18px | grid line */
+  padding: 1.204em 1.444em; /*  21.667px/18px || 26px/18px */
+}
 
- h1{
-   font-size: 1.722em; /* 31px/18px */
-   line-height: 1.677em; /* 52px/18px */
- }
+h1{
+ font-size: 1.722em; /* 31px/18px */
+ line-height: 1.677em; /* 52px/18px */
+}
 
- p{
-   padding-bottom: 1.444em; /* 26px/18px */
- }
 
- h3{
-   font-size: 0.722em; /* 13px/18px */
-   padding-bottom: 1.444em; /* 26px/18px */
- }
+p{
+ padding-bottom: 1.444em; /* 26px/18px */
+}
+
+h3{
+  font-size: 0.722em; /* 13px/18px */
+  padding-bottom: 1.444em; /* 26px/18px */
+}
 
 
 /* FORM ELEMENTS */
@@ -54,6 +55,7 @@ input{
   margin: 0;
   padding: 0;
 }
+
 /* so the label could be flush */
 input{
   line-height: 2.888em; /* 52px/18px | 2 grid lines */
@@ -61,7 +63,7 @@ input{
 
 input[type=submit]{
   background-color: #8A8A8A; /* lavender EAC3F7 */
-  display: block;
+    display: block;
 }
 
 input[type=name] {
