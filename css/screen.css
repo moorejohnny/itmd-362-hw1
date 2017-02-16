@@ -82,6 +82,10 @@ input[type=submit] {
   padding-right: 0.722em; /*  13px/18px | half gridline */
   background-color: #8A8A8A; /* lavender EAC3F7 */
   display: block;
+  height: 2.888em; /* 52px/18px | 2 grid lines */
+  background-color: #EAC3F7;
+  border: solid 1px #FFF;
+  border-radius: 5px
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -123,7 +127,6 @@ input[type=submit] {
 .hasjs #input-name label.active{
   top: -1.444em; /*  13px/18px | half gridline */
   padding-left: -2.888em; /*  13px/18px */
-  /* position: absolute; */
 }
 
 .hasjs #input-email {
