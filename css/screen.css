@@ -39,6 +39,10 @@ li{
 }
 
 p{
+  padding-bottom: 1.444em; /* 26px/18px | grid line */
+}
+
+#sign-up{
  padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
