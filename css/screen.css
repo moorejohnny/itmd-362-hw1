@@ -89,11 +89,6 @@ input[type=email] {
   border-radius: 0.556em; /*  10px/18px */
 }
 
-input[type=experience] {
-  padding-left: 60px; /* 0.722em; /*  13px/18px | half gridline */
-  border-radius: 60px; /* 0.556em; /*  10px/18px */
-}
-
 input[type=submit] {
   padding-left: 0.722em; /*  13px/18px | half gridline */
   padding-right: 0.722em; /*  13px/18px | half gridline */
@@ -111,6 +106,10 @@ img.abletonLogo{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#sign-up{
+  padding-bottom: 0.839em; /* 26px/31px */
 }
 
 #purpose{
@@ -182,4 +181,15 @@ img.abletonLogo{
 .hasjs #input-email label.active{
   top: -1.444em; /*  13px/18px | half gridline */
   padding-left: -2.888em; /*  13px/18px */
+}
+
+
+.hasjs #form-ya {
+  visibility: hidden;
+  position: absolute;
+}
+.hasjs #form-ya.active {
+  transition: top, 5s;
+  visibility: visible;
+  position: inherit;;
 }

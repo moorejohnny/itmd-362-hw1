@@ -6,11 +6,9 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 
-  $('#sign-up').on('focus', function() {
-    $('#form-ya').addClass('active');
+  $('#sign-up').on('click', function() {
+    $('#form-ya').toggleClass('active');
   });
-
-
 
   $('#name').on('focus', function() {
     $('#input-name label').addClass('active');
@@ -30,9 +28,6 @@ jQuery(function($) {
     }
   });
 
-  $('#sign-up').on('focus', function() {
-    $('#form-ya').addClass('active');
-  });
 
   $('#email').on('keyup', function() {
     var currentValue = $(this).val();
