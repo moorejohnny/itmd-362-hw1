@@ -35,7 +35,8 @@ h1{
 }
 
 li{
-  padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
+  padding-bottom: 1.444em;
+  /* padding-bottom: 2.888em; 52px/18px | 2 grid lines */
 }
 
 p{
@@ -71,6 +72,12 @@ input{
   line-height: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
+#input-name,
+#input-email,
+#input-submit {
+  padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
+}
+
 input[type=name] {
   padding-left: 0.722em; /*  13px/18px | half gridline */
   border-radius: 0.556em; /*  10px/18px */
@@ -98,6 +105,13 @@ img.abletonLogo{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#purpose{
+  list-style: disc;
+  color: #FFFFFF;
+  display: block;
+  padding-left: 1.444em; /* 26px/18px | grid line */
 }
 
 /* ===== LAYOUT STYLES ===== */
