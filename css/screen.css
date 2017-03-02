@@ -92,6 +92,14 @@ input[type=submit] {
   border-radius: 2.778em; /*  50px/18px  */
 }
 
+img.abletonLogo{
+  max-width: 100%;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
