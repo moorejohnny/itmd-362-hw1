@@ -32,6 +32,7 @@ html{
 h1{
  font-size: 1.722em; /* 31px/18px */
  line-height: 1.677em; /* 52px/18px */
+ display: block;
 }
 
 li{
@@ -86,6 +87,11 @@ input[type=name] {
 input[type=email] {
   padding-left: 0.722em; /*  13px/18px | half gridline */
   border-radius: 0.556em; /*  10px/18px */
+}
+
+input[type=experience] {
+  padding-left: 60px; /* 0.722em; /*  13px/18px | half gridline */
+  border-radius: 60px; /* 0.556em; /*  10px/18px */
 }
 
 input[type=submit] {
@@ -143,6 +149,7 @@ img.abletonLogo{
   position: static;
 }
 
+
 .hasjs #input-name {
   position: relative;
 }
@@ -159,6 +166,8 @@ img.abletonLogo{
   padding-left: -2.888em; /*  13px/18px */
 }
 
+
+
 .hasjs #input-email {
   position: relative;
 }
@@ -173,5 +182,4 @@ img.abletonLogo{
 .hasjs #input-email label.active{
   top: -1.444em; /*  13px/18px | half gridline */
   padding-left: -2.888em; /*  13px/18px */
-  /* position: absolute; */
 }
