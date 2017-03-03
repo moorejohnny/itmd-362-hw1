@@ -89,6 +89,11 @@ input[type=email] {
   border-radius: 0.556em; /*  10px/18px */
 }
 
+input[type=input-experience] {
+  padding-left: 0.722em; /*  13px/18px | half gridline */
+  border-radius: 0.556em; /*  10px/18px */
+}
+
 input[type=submit] {
   padding-left: 0.722em; /*  13px/18px | half gridline */
   padding-right: 0.722em; /*  13px/18px | half gridline */
