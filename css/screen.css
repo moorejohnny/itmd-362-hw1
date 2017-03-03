@@ -101,11 +101,10 @@ input[type=submit] {
 }
 
 img.abletonLogo{
-  max-width: 100%;
+  width: 25%;
+  height: 25%;
   justify-content: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /*display: block;*/
 }
 
 #sign-up{
@@ -130,14 +129,6 @@ img.abletonLogo{
 
 
 /* ===== STATE STYLES ===== */
-
-/*
-@media (max-width: 700px) {
-  h1{
-    font-size: 1.44em; /*25.92px */
-/*  }
-}
-/**/
 
 .hasjs input[type="submit"]{
   position: absolute;
@@ -189,7 +180,65 @@ img.abletonLogo{
   position: absolute;
 }
 .hasjs #form-ya.active {
-  transition: top, 5s;
+  transition: 5s;
   visibility: visible;
   position: inherit;;
+}
+
+/*
+@media (max-width: 700px) {
+  h1{
+    font-size: 1.44em; /*25.92px */
+/*  }
+}
+/**/
+
+@media screen and (min-width: 545px){ /* increasing the font sizes by 2px */
+	html {
+		font-size: 1.250em; /* 20px */
+		line-height: 1.333em; /* 24px / 18px (1 gridline) */
+	}
+
+	h1 {
+		font-size: 1.839em; /* 33.104px / 18px */
+		line-height: 1.45em; /* 48px / 33.104px (2 gridlines) */
+		padding-bottom: 0.362em; /* 12px / 33.104px (0.5 gridline) */
+	}
+
+	h2 {
+		font-size: 1.551em; /* 27.92px / 18px */
+		line-height: 1.289em; /* 36px / 27.92px (1.5 gridlines) */
+		padding-bottom: 0.43em; /* 12px / 27.92px (0.5 gridline) */
+	}
+
+	h3 {
+		font-size: 0.806em; /* 14.5px / 18px */
+		line-height: 1.5em; /* 12px / 14.5px (0.5 gridlines) */
+		padding-bottom: 0.828em; /* 12px / 14.5px (0.5 gridlines) */
+	}
+}
+
+@media screen and (min-width: 1250px){ /* increasing the font sizes by 4px */
+	html {
+		font-size: 1.375em; /* 22px */
+		line-height: 1.444em; /* 26px / 18px (1 gridline) */
+	}
+
+	h1 {
+		font-size: 1.95em; /* 35.104px / 18px */
+		line-height: 1.481em; /* 52px / 35.104px (2 gridlines) */
+		padding-bottom: 0.37em; /* 13px / 35.104px (0.5 gridline) */
+	}
+
+	h2 {
+		font-size: 1.551em; /* 27.92px / 18px */
+		line-height: 1.397em; /* 39px / 27.92px (1.5 gridlines) */
+		padding-bottom: 0.466em; /* 13px / 27.92px (0.5 gridline) */
+	}
+
+	h3 {
+		font-size: 0.917em; /* 16.5px / 18px */
+		line-height: 0.787em; /* 13px / 16.5px (0.5 gridlines) */
+		padding-bottom: 0.787em; /* 13px / 16.5px (0.5 gridlines) */
+	}
 }
