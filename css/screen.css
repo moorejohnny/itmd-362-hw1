@@ -180,7 +180,7 @@ img.abletonLogo{
   position: absolute;
 }
 .hasjs #form-ya.active {
-  transition: 5s;
+  /* transition: 5s;*/
   visibility: visible;
   position: inherit;;
 }
