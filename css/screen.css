@@ -75,7 +75,8 @@ input{
 
 #input-name,
 #input-email,
-#input-submit {
+#input-submit,
+#input-experience {
   padding-bottom: 2.888em; /* 52px/18px | 2 grid lines */
 }
 
@@ -89,7 +90,7 @@ input[type=email] {
   border-radius: 0.556em; /*  10px/18px */
 }
 
-input[type=input-experience] {
+input[type=radio] {
   padding-left: 0.722em; /*  13px/18px | half gridline */
   border-radius: 0.556em; /*  10px/18px */
 }
@@ -112,6 +113,10 @@ img.abletonLogo{
   /*display: block;*/
 }
 
+legend{
+  padding-left: 0.722em; /*  13px/18px | half gridline */
+}
+
 #sign-up{
   padding-bottom: 0.839em; /* 26px/31px */
 }
@@ -122,8 +127,49 @@ img.abletonLogo{
   display: block;
   padding-left: 1.444em; /* 26px/18px | grid line */
 }
+#purpose li {
+  padding-bottom: 26px;
+}
 
 #top-paragraph{
+  padding-bottom: 1.444em;
+}
+
+#second-paragraph{
+  padding-bottom: 1.444em;
+}
+
+input[type=radio]{
+  float: left;
+  clear: none;
+}
+
+input[type="option-0"]{
+  position: absolute;
+  float: bottom;
+}
+
+ul li:hover label{
+	color: #4b6484;
+}
+
+
+.container label{
+  float: left;
+  line-height: 4px; /* 2px looks pretty good */
+}
+
+#option-0{
+  float: left;
+  line-height: 90px;
+}
+
+#choices{
+  padding-left: 1.444em; /* 26px/18px */
+}
+
+#choices ul, li {
+  line-height: 1.444em;
   padding-bottom: 1.444em;
 }
 
